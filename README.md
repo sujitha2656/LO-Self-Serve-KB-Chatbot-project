@@ -6,6 +6,15 @@ An automated, production-ready Level-0 (L0) IT support self-service assistant. T
 https://drive.google.com/file/d/1N56CeIrp5HlCsD2pDbpBKcyzB7Slowdc/view?usp=sharing
 
 
+
+
+# Team members
+Lingareddy Sujitha
+Kommi Sindhu
+Kuruva Parashuram
+Kondreddigari Jhnavi
+
+
 ## 1. Problem Statement
 Internal IT Service Desk teams are frequently overwhelmed by high volumes of repetitive, low-complexity Level-0 (L0) inquiries (e.g., forgotten password reset steps, VPN configurations, and local office printer setups). Resolving these manually consumes valuable IT engineering hours, raises operational overhead, and results in delayed response rates for end-users. 
 
