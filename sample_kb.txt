@@ -1,0 +1,21 @@
+Employee Knowledge Base
+
+Password Reset
+
+Employees can reset their password by clicking the "Forgot Password" option on the login page. A password reset link will be sent to the registered email address.
+
+VPN Access
+
+Employees requiring remote access must submit a VPN access request through the IT Service Portal. Manager approval may be required before access is granted.
+
+Leave Policy
+
+Employees can apply for leave using the Leave Management System. Leave requests must be submitted in advance and approved by the reporting manager.
+
+Employee ID Card
+
+New employees will receive an ID card after onboarding. Lost or damaged ID cards can be replaced by submitting a request through the HR Portal.
+
+Timesheet Submission
+
+Employees must submit their weekly timesheets through the Timesheet Portal before the end of each week. Late submissions may require manager approval.
