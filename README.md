@@ -9,10 +9,10 @@ https://drive.google.com/file/d/1N56CeIrp5HlCsD2pDbpBKcyzB7Slowdc/view?usp=shari
 
 
 # Team members
-Lingareddy Sujitha
-Kommi Sindhu
-Kuruva Parashuram
-Kondreddigari Jhnavi
+1.Lingareddy Sujitha
+2.Kommi Sindhu
+3.Kuruva Parashuram
+4.Kondreddigari Jhnavi
 
 
 ## 1. Problem Statement
