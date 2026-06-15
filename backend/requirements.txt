@@ -1,0 +1,12 @@
+streamlit==1.35.0
+faiss-cpu==1.8.0
+numpy==1.26.4
+sentence-transformers==3.0.0
+google-generativeai==0.5.4
+python-dotenv==1.0.1
+markdown==3.6
+pandas==2.2.2
+pytest==8.2.1
+fastapi==0.111.0
+uvicorn==0.29.0
+requests==2.32.3

@@ -1,0 +1,250 @@
+[
+    {
+        "role": "user",
+        "content": "how can i reset my password?"
+    },
+    {
+        "role": "assistant",
+        "content": "You can reset your password using one of the following methods:\n\n**Method 1: Standard Password Reset Procedure**\n1. Open the company login page and click on the \"Forgot Password\" link.\n2. Input your official email address.\n3. You will receive a password reset link via email within 5 minutes.\n4. Click the link and input a new password that complies with the password policy.\n\n**Method 2: Password Self-Service Portal**\n1. Open a browser and navigate to the self-service portal: `https://password.company.com`.\n2. Click **Reset Password** or **Unlock Account**.\n3. Input your corporate email address and complete the security captcha.\n4. Verify your identity using one of your registered secondary MFA methods (SMS, email code, or Authenticator app approval).\n5. Input a new password that matches the complexity requirements.\n6. Submit the request and wait 2 minutes for synchronization before logging in.",
+        "confidence": "High",
+        "score": 95.0,
+        "chunks": [
+            {
+                "id": "password_reset_chunk_0",
+                "text": "# password_reset",
+                "distance": 0.7138023972511292,
+                "similarity": 0.7138023972511292,
+                "metadata": {
+                    "source": "password_reset.md",
+                    "headers": "H1: password_reset",
+                    "chunk_index": 0
+                }
+            },
+            {
+                "id": "password_reset_chunk_1",
+                "text": "## Standard Password Reset Procedure\nThis guide describes how users can reset their passwords autonomously.\n\n1.  Open the company login page and click on the \"Forgot Password\" link.\n2.  Input your official email address.\n3.  You will receive a password reset link via email within 5 minutes.\n4.  Click the link and input a new password that complies with our password policy.",
+                "distance": 0.6832317113876343,
+                "similarity": 0.6832317113876343,
+                "metadata": {
+                    "source": "password_reset.md",
+                    "headers": "H1: password_reset > H2: Standard Password Reset Procedure",
+                    "chunk_index": 0
+                }
+            },
+            {
+                "id": "kb01_password_self_service_chunk_0",
+                "text": "# Password Self-Service Reset Guide",
+                "distance": 0.6454348564147949,
+                "similarity": 0.6454348564147949,
+                "metadata": {
+                    "source": "kb01_password_self_service.md",
+                    "headers": "H1: Password Self-Service Reset Guide",
+                    "chunk_index": 0
+                }
+            },
+            {
+                "id": "kb02_password_expired_chunk_3",
+                "text": "## References\n- See [kb01_password_self_service.md](kb01_password_self_service.md) for self-service guidelines.\n- Contact Helpdesk at `ext. 5555` if you cannot reset it online.",
+                "distance": 0.5867416858673096,
+                "similarity": 0.5867416858673096,
+                "metadata": {
+                    "source": "kb02_password_expired.md",
+                    "headers": "H1: Dealing with Expired Passwords > H2: References",
+                    "chunk_index": 0
+                }
+            },
+            {
+                "id": "kb01_password_self_service_chunk_2",
+                "text": "## Resolution\n1. Open a browser and navigate to the self-service portal: `https://password.company.com`.\n2. Click **Reset Password** or **Unlock Account**.\n3. Input your corporate email address and complete the security captcha.\n4. Verify your identity using one of your registered secondary MFA methods (SMS, email code, or Authenticator app approval).\n5. Input a new password that matches the complexity requirements:\n   - Minimum 12 characters.\n   - At least 1 uppercase, 1 lowercase, 1 number, and 1 special character.\n   - Cannot match any of your previous 5 passwords.\n6. Submit the request and wait 2 minutes for synchronization before logging in.",
+                "distance": 0.5760622024536133,
+                "similarity": 0.5760622024536133,
+                "metadata": {
+                    "source": "kb01_password_self_service.md",
+                    "headers": "H1: Password Self-Service Reset Guide > H2: Resolution",
+                    "chunk_index": 0
+                }
+            },
+            {
+                "id": "password_reset_chunk_2",
+                "text": "## Password Requirements\n*   Minimum 12 characters.\n*   Must contain at least 1 uppercase letter, 1 lowercase letter, 1 number, and 1 special symbol.\n*   Cannot reuse any of your last 5 passwords.\n*   Reset links expire after 1 hour.",
+                "distance": 0.5356158018112183,
+                "similarity": 0.5356158018112183,
+                "metadata": {
+                    "source": "password_reset.md",
+                    "headers": "H1: password_reset > H2: Password Requirements",
+                    "chunk_index": 0
+                }
+            },
+            {
+                "id": "kb02_password_expired_chunk_0",
+                "text": "# Dealing with Expired Passwords",
+                "distance": 0.5306305885314941,
+                "similarity": 0.5306305885314941,
+                "metadata": {
+                    "source": "kb02_password_expired.md",
+                    "headers": "H1: Dealing with Expired Passwords",
+                    "chunk_index": 0
+                }
+            },
+            {
+                "id": "kb01_password_self_service_chunk_3",
+                "text": "## References\n- See [kb02_password_expired.md](kb02_password_expired.md) if your account is fully suspended.\n- Contact `identity-support@company.com` for account locks.",
+                "distance": 0.5165610313415527,
+                "similarity": 0.5165610313415527,
+                "metadata": {
+                    "source": "kb01_password_self_service.md",
+                    "headers": "H1: Password Self-Service Reset Guide > H2: References",
+                    "chunk_index": 0
+                }
+            },
+            {
+                "id": "kb02_password_expired_chunk_2",
+                "text": "## Resolution\n1. If your password has expired, you cannot log in to your workstation directly if it is offline. Connect your laptop to a wired office network port or use home Wi-Fi.\n2. If at login screen, click **Sign-in options** and choose security questions if configured.\n3. Otherwise, use a secondary device (e.g. mobile phone) and go to the web portal: `https://portal.office.com`.\n4. Try logging in; Microsoft 365 will display an alert: \"Your password has expired. Update it now.\"\n5. Enter your old password, then choose a new password.\n6. Once updated on the cloud, connect your laptop to the company VPN at the login screen (using the FortiClient pre-login connection button) to sync your local workstation password with active directory.",
+                "distance": 0.4759417772293091,
+                "similarity": 0.4759417772293091,
+                "metadata": {
+                    "source": "kb02_password_expired.md",
+                    "headers": "H1: Dealing with Expired Passwords > H2: Resolution",
+                    "chunk_index": 0
+                }
+            },
+            {
+                "id": "kb01_password_self_service_chunk_1",
+                "text": "## Problem\nUsers forget their active directory passwords or get locked out of their accounts and need a quick self-service method to unlock themselves without calling the Helpdesk.",
+                "distance": 0.45836570858955383,
+                "similarity": 0.45836570858955383,
+                "metadata": {
+                    "source": "kb01_password_self_service.md",
+                    "headers": "H1: Password Self-Service Reset Guide > H2: Problem",
+                    "chunk_index": 0
+                }
+            }
+        ],
+        "citations": [
+            "password_reset.md > H1: password_reset > H2: Standard Password Reset Procedure",
+            "kb01_password_self_service.md > H1: Password Self-Service Reset Guide > H2: Resolution"
+        ]
+    },
+    {
+        "role": "user",
+        "content": "how can i order icecream?"
+    },
+    {
+        "role": "assistant",
+        "content": "I could not find this in the knowledge base.",
+        "confidence": "Low",
+        "score": 22.86466956138611,
+        "chunks": [
+            {
+                "id": "kb13_software_company_portal_chunk_0",
+                "text": "# Installing Approved Software via Company Portal",
+                "distance": 0.22864669561386108,
+                "similarity": 0.22864669561386108,
+                "metadata": {
+                    "source": "kb13_software_company_portal.md",
+                    "headers": "H1: Installing Approved Software via Company Portal",
+                    "chunk_index": 0
+                }
+            },
+            {
+                "id": "kb13_software_company_portal_chunk_2",
+                "text": "## Resolution\n1. Press the **Windows Key** on your keyboard, type **Company Portal**, and press Enter.\n2. If using macOS, open **Self Service** from the Applications folder.\n3. Browse the home catalog of approved software packages.\n4. Click on the desired software (e.g., **Slack Desktop**).\n5. Click **Install**.\n6. The installer runs silently in the background with administrative privileges. Once the status changes to \"Installed\", you can launch the app from your start menu.",
+                "distance": 0.2079753428697586,
+                "similarity": 0.2079753428697586,
+                "metadata": {
+                    "source": "kb13_software_company_portal.md",
+                    "headers": "H1: Installing Approved Software via Company Portal > H2: Resolution",
+                    "chunk_index": 0
+                }
+            },
+            {
+                "id": "kb08_printer_offline_jam_chunk_3",
+                "text": "## References\n- Installation guide: [kb07_printer_network_setup.md](kb07_printer_network_setup.md)\n- Supply refill requests: `admin-supplies@company.com`",
+                "distance": 0.2047358751296997,
+                "similarity": 0.2047358751296997,
+                "metadata": {
+                    "source": "kb08_printer_offline_jam.md",
+                    "headers": "H1: Printer Hardware and Offline Troubleshooting > H2: References",
+                    "chunk_index": 0
+                }
+            },
+            {
+                "id": "kb14_software_admin_privileges_chunk_3",
+                "text": "## References\n- Portal catalog: [kb13_software_company_portal.md](kb13_software_company_portal.md)\n- Security policy team: `infosec-group@company.com`",
+                "distance": 0.19337446987628937,
+                "similarity": 0.19337446987628937,
+                "metadata": {
+                    "source": "kb14_software_admin_privileges.md",
+                    "headers": "H1: Software Local Admin Privilege Request Policy > H2: References",
+                    "chunk_index": 0
+                }
+            },
+            {
+                "id": "kb01_password_self_service_chunk_3",
+                "text": "## References\n- See [kb02_password_expired.md](kb02_password_expired.md) if your account is fully suspended.\n- Contact `identity-support@company.com` for account locks.",
+                "distance": 0.19209644198417664,
+                "similarity": 0.19209644198417664,
+                "metadata": {
+                    "source": "kb01_password_self_service.md",
+                    "headers": "H1: Password Self-Service Reset Guide > H2: References",
+                    "chunk_index": 0
+                }
+            },
+            {
+                "id": "kb01_password_self_service_chunk_2",
+                "text": "## Resolution\n1. Open a browser and navigate to the self-service portal: `https://password.company.com`.\n2. Click **Reset Password** or **Unlock Account**.\n3. Input your corporate email address and complete the security captcha.\n4. Verify your identity using one of your registered secondary MFA methods (SMS, email code, or Authenticator app approval).\n5. Input a new password that matches the complexity requirements:\n   - Minimum 12 characters.\n   - At least 1 uppercase, 1 lowercase, 1 number, and 1 special character.\n   - Cannot match any of your previous 5 passwords.\n6. Submit the request and wait 2 minutes for synchronization before logging in.",
+                "distance": 0.1849764883518219,
+                "similarity": 0.1849764883518219,
+                "metadata": {
+                    "source": "kb01_password_self_service.md",
+                    "headers": "H1: Password Self-Service Reset Guide > H2: Resolution",
+                    "chunk_index": 0
+                }
+            },
+            {
+                "id": "kb13_software_company_portal_chunk_3",
+                "text": "## References\n- Admin errors: [kb14_software_admin_privileges.md](kb14_software_admin_privileges.md)\n- App packaging team: `app-pkg@company.com`",
+                "distance": 0.18226617574691772,
+                "similarity": 0.18226617574691772,
+                "metadata": {
+                    "source": "kb13_software_company_portal.md",
+                    "headers": "H1: Installing Approved Software via Company Portal > H2: References",
+                    "chunk_index": 0
+                }
+            },
+            {
+                "id": "vpn_setup_chunk_4",
+                "text": "## Login Protocol\n*   Enter your company username and password.\n*   When prompted for MFA, open your authenticator app and approve the request.\n*   Once connected, your traffic will be routed securely through the corporate gateway.",
+                "distance": 0.17608782649040222,
+                "similarity": 0.17608782649040222,
+                "metadata": {
+                    "source": "vpn_setup.md",
+                    "headers": "H1: vpn_setup > H2: Login Protocol",
+                    "chunk_index": 0
+                }
+            },
+            {
+                "id": "kb04_vpn_troubleshooting_chunk_3",
+                "text": "## References\n- Install details: [kb03_vpn_install_forticlient.md](kb03_vpn_install_forticlient.md)\n- Help desk ticket hotline: `helpdesk-vpn@company.com`",
+                "distance": 0.17589426040649414,
+                "similarity": 0.17589426040649414,
+                "metadata": {
+                    "source": "kb04_vpn_troubleshooting.md",
+                    "headers": "H1: VPN Connection Troubleshooting > H2: References",
+                    "chunk_index": 0
+                }
+            },
+            {
+                "id": "kb09_mfa_enrollment_setup_chunk_2",
+                "text": "## Resolution\n1. On your computer, open a browser and go to: `https://aka.ms/mfasetup`.\n2. Log in using your company email and temporary setup password.\n3. The screen will say \"More information required\". Click **Next**.\n4. Download the **Microsoft Authenticator** app on your iOS or Android mobile device.\n5. In the app on your phone, click **Add Account** > **Work or school account** > **Scan QR Code**.\n6. Scan the QR code displayed on your computer screen.\n7. Click **Next** on your computer. A test approval notification will be sent to your phone. Approve the sign-in.\n8. Store the provided backup phone verification number in case you lose access.",
+                "distance": 0.1510571986436844,
+                "similarity": 0.1510571986436844,
+                "metadata": {
+                    "source": "kb09_mfa_enrollment_setup.md",
+                    "headers": "H1: Multi-Factor Authentication (MFA) Enrollment > H2: Resolution",
+                    "chunk_index": 0
+                }
+            }
+        ]
+    }
+]
