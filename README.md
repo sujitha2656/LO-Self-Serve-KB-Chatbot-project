@@ -2,7 +2,9 @@
 
 An automated, production-ready Level-0 (L0) IT support self-service assistant. This application reads standard operating procedures (SOPs) written in Markdown, generates dense vector representations locally using `SentenceTransformers`, indexes them into a persistent `ChromaDB` database, runs grounded completion queries using `Google Gemini API`, and triggers automated service ticketing classifications if confidence scores fall below threshold rules.
 
----
+#Demo Video Link:
+https://drive.google.com/file/d/1N56CeIrp5HlCsD2pDbpBKcyzB7Slowdc/view?usp=sharing
+
 
 ## 1. Problem Statement
 Internal IT Service Desk teams are frequently overwhelmed by high volumes of repetitive, low-complexity Level-0 (L0) inquiries (e.g., forgotten password reset steps, VPN configurations, and local office printer setups). Resolving these manually consumes valuable IT engineering hours, raises operational overhead, and results in delayed response rates for end-users. 
